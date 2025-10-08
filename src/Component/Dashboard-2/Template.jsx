@@ -1,8 +1,8 @@
 import React from "react";
 import Single from "./Single";
 
-const Template = (props) => {
-  return <Single singleInfo={props.info}></Single>;
+const Template = ({ info, removeItem }) => {
+  return <Single singleInfo={info} removeItem={removeItem}></Single>;
 };
 
 export default Template;
